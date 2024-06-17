@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install dependencies
-        run: npm run
+        run: npm install
       - name: Lint
-        run: next lint
+        run: npm run lint
       
