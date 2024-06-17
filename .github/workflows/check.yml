@@ -9,5 +9,5 @@ jobs:
       - name: Install dependencies
         run: npm run
       - name: Lint
-        run: npm run lint
+        run: next lint
       
