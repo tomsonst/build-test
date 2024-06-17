@@ -1,5 +1,12 @@
 name: Check
-on: push
+on: 
+    push:
+      branches:
+        - main
+    pull_request:
+    # Sequence of patterns matched against refs/heads
+      branches:
+        - main
 jobs:
   lint:
     runs-on: ubuntu-latest
